@@ -1,6 +1,6 @@
 const buildContainer = (domain, status) => {
   const container = document.createElement("div");
-  container.setClass('container');
+  container.className = 'container';
   const header = document.createElement('h1');
   const description = document.createElement('p');
 
